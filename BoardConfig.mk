@@ -202,6 +202,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Sensor
 TARGET_USES_DEPTHSENSOR_OVERRIDE := true
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
+
 # Sepolicy - Common
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 
@@ -220,9 +223,6 @@ BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
 BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA4096
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
-
-# Vendor security patch level
-VENDOR_SECURITY_PATCH := 2020-04-05
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
