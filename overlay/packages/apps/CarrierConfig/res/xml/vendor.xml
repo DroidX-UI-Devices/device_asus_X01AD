@@ -394,6 +394,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="510" mnc="10">
+<<<<<<< HEAD
         <boolean name="carrier_volte_available_bool" value="true"/>   
      </carrier_config>
      
@@ -428,7 +429,8 @@
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
->>>>>>> 12330ee (X01AD: overlay: enable VoLTE Support for Globe, Smart and DITO)
+        <boolean name="carrier_volte_available_bool" value="true"/>
+    </carrier_config>
     <carrier_config mcc="405" mnc="840">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="false" />
