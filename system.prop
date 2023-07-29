@@ -205,12 +205,6 @@ vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 #Enable FR27607-RIL to send ONLINE cmd in bootup
 #persist.radio.poweron_opt=1
 
-# Havoc
-ro.havoc.device.name=Asus Zenfone Max M2 (X01AD)
-ro.havoc.group.url=https://t.me/AsusMaxM2indonesia
-ro.havoc.maintainer=Azep Sunanda Zain
-ro.havoc.maintainer.username=Assunzain
-
 #low power mode for camera
 vendor.camera.lowpower.record.enable=1
 
