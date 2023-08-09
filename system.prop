@@ -251,5 +251,15 @@ telephony.lteOnCdmaDevice=1
 persist.radio.add_power_save=1
 # end of file
 
+# Battery life
+wifi.supplicant_scan_interval=240 
+pm.sleep_mode=1 
+ro.mot.eri.losalert.delay=1000
+ro.ril.disable.power.collapse=0
+ro.ril.power_collapse=1
+ro.config.hw_power_saving=1
+power.saving.mode=1
+power_supply.wakeup=enable
+
 # Storage.xml moment
 persist.sys.binary_xml=false
