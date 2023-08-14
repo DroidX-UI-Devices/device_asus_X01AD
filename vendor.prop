@@ -114,12 +114,6 @@ persist.backup.ntpServer=0.pool.ntp.org
 # LMKD
 ro.config.low_ram=false
 
-# Media
-debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
-vendor.vidc.disable.split.mode=1
-vendor.vidc.enc.disable.pq=true
-
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
