@@ -268,6 +268,14 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libseemore.so
 vendor/lib/libvideoutils.so
+vendor/lib/libmmcamera_ubifocus_lib.so
+vandor/lib/libmmcamera_sw_tnr.so
+vendor/lib/libchromaflash.so
+vendor/lib/libllvd_smore.so
+vendor/lib/liboptizoom.so
+vendor/lib/libseemore.so
+vendor/lib/libtrueportrait.so
+vendor/lib64/libtrueportrait.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libseemore.so
