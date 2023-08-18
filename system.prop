@@ -33,6 +33,9 @@ persist.camera.is_mode=4
 persist.camera.stats.test=5
 camera.HAL3.enabled=1
 
+# Maintainer DroidXUI
+ro.droidx.maintainer=AssunZain
+
 debug.sf.latch_unsignaled=1
 debug.sf.enable_hwc_vds=0
 debug.performance.tuning=1
