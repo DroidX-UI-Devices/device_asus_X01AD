@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/X01AD/device.mk)
 
 # Inherit some common DroidX-UI stuff.
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common.mk)
 
 
 # Set shipping API level
