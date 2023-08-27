@@ -60,8 +60,6 @@ on boot
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
 
-    # Create folder for mm-qcamera-daemon
-    mkdir /data/vendor/camera 0777 camera camera
 
     chmod 0777 /data/vendor
     chmod 0777 /data/vendor/camera
