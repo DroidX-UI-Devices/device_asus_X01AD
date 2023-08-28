@@ -8,11 +8,10 @@ git clone https://github.com/afterallafk/hardware_qcom-caf_msm8996_display -b 13
 git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_media -b thirteen hardware/qcom-caf/msm8996/media
 git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio -b thirteen hardware/qcom-caf/msm8996/audio
 
+# Import Viper
+git clone https://github.com/Assunzain/vendor_v4afx -b main vendor/v4afx
+
 # import Cameras
-rm -rf packages/apps/Camera2
-git clone https://github.com/ArrowOS/android_packages_apps_Camera2 -b arrow-13.1 packages/apps/Camera2
-rm -rf hardware/google/camera
-git clone https://github.com/RisingTechOSS/android_hardware_google_camera -b thirteen hardware/google/camera
 rm -rf packages/apps/Aperture
 git clone https://github.com/LineageOS/android_packages_apps_Aperture -b lineage-20.0 packages/apps/Aperture
 
