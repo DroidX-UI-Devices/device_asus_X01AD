@@ -8,6 +8,9 @@ git clone https://github.com/afterallafk/hardware_qcom-caf_msm8996_display -b 13
 git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_media -b thirteen hardware/qcom-caf/msm8996/media
 git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio -b thirteen hardware/qcom-caf/msm8996/audio
 
+# Import Packagest 
+git clone https://github.com/PixelExperience/packages_apps_FaceUnlockService -b thirteen packages/apps/FaceUnlockService
+
 # Import Viper
 git clone https://github.com/Assunzain/vendor_v4afx -b main vendor/v4afx
 
