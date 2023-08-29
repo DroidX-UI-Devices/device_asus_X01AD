@@ -179,6 +179,9 @@ BOARD_ROOT_EXTRA_FOLDERS := factory
 TARGET_BOARD_PLATFORM := msm8953
 
 # Power
+TARGET_USES_INTERACTION_BOOST := true
+
+# Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tpd_gesture"
 
 # Properties
