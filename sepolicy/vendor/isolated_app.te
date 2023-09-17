@@ -1,0 +1,1 @@
+allow { appdomain -isolated_app } vendor_adsprpc_prop:file { getattr open read };
