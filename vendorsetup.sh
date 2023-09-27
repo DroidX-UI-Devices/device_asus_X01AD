@@ -8,6 +8,14 @@ git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-
 git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
 git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
 
+# import Cameras
+rm -rf packages/apps/Camera2
+git clone https://github.com/ArrowOS/android_packages_apps_Camera2 -b arrow-13.1 packages/apps/Camera2
+rm -rf hardware/google/camera
+git clone https://github.com/RisingTechOSS/android_hardware_google_camera -b thirteen hardware/google/camera
+rm -rf packages/apps/Aperture
+git clone https://github.com/LineageOS/android_packages_apps_Aperture -b lineage-20.0 packages/apps/Aperture
+
 # Import Packagest 
 git clone https://github.com/PixelExperience/packages_apps_FaceUnlockService -b thirteen packages/apps/FaceUnlockService
 
