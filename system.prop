@@ -33,6 +33,9 @@ persist.camera.is_mode=4
 persist.camera.stats.test=5
 camera.HAL3.enabled=1
 
+# FS-verity
+ro.apk_verity.mode=2
+
 ######Maintainer##############
 # Maintainer DroidXUI
 ro.droidx.maintainer=AssunZain
