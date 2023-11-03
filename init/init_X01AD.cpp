@@ -121,4 +121,6 @@ void vendor_load_properties()
     property_override("ro.rising.chipset", "Snapdragon™ 632");
     // Set bluetooth name
     property_override("bluetooth.device.default_name", "Zenfone Max M2");
+    // SafetyNet workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 }
