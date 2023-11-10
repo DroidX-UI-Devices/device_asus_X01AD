@@ -393,40 +393,42 @@
     <carrier_config mcc="286" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
+    <!-- X01AD: overlay: enable VoLTE support for Three -->
+    <carrier_config mcc="510" mnc="89">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    
+    <!-- X01AD: CarrierConfig: Enable VoLTE support for Telkomsel (Indonesia) -->
     <carrier_config mcc="510" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true"/>   
      </carrier_config>
      
+   <!-- X01AD: overlay: enable VoLTE Support for Globe, Smart and DITO -->
     <carrier_config mcc="510" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true"/>
     </carrier_config>
     <carrier_config mcc="510" mnc="11">
         <boolean name="carrier_volte_available_bool" value="true"/>
     </carrier_config>
-
     <carrier_config mcc="510" mnc="89">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-
     <carrier_config mcc="515" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-
     <carrier_config mcc="515" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-
     <carrier_config mcc="515" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-
     <carrier_config mcc="515" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
-
     <carrier_config mcc="515" mnc="66">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
+    
 
     <carrier_config mcc="405" mnc="840">
         <boolean name="carrier_volte_available_bool" value="true" />
