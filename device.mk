@@ -22,6 +22,9 @@ $(call inherit-product, vendor/asus/X01AD/X01AD-vendor.mk)
 # Keep this after including updatable_apex.mk
 PRODUCT_COMPRESSED_APEX := false
 
+# use pixel charger
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Updatable
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apex.updatable=false
