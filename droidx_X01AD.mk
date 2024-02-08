@@ -18,29 +18,26 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Sweet stuff
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common Droidx-UI stuff
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 # Inherit from X01AD device
 $(call inherit-product, device/asus/X01AD/device.mk)
 
-# CherishOS
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_GAPPS_ARCH := arm64
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_SUPPORTS_QUICK_TAP := true
-CHERISH_BUILD_TYPE=UNOFFICIAL
-TARGET_USES_MINI_GAPPS := true
-TARGET_INCLUDE_CARRIER_SETTINGS := true
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=AssunZain
-
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+# DroidX stuff
+DROIDX_BUILD_TYPE := OFFICIAL
+DROIDX_GAPPS := true
+
+# Device props
+TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifiers.
-PRODUCT_NAME := cherish_X01AD
+PRODUCT_NAME := droidx_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus

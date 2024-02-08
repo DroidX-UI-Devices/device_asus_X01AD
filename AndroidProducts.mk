@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_X01AD.mk
+    $(LOCAL_DIR)/droidx_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_X01AD-user \
-    cherish_X01AD-userdebug \
-    cherish_X01AD-eng
+    droidx_X01AD-user \
+    droidx_X01AD-userdebug \
+    droidx_X01AD-eng
 
