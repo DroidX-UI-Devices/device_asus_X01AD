@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # DroidX stuff
 DROIDX_BUILD_TYPE := OFFICIAL
-DROIDX_GAPPS := true
+DROIDX_GAPPS := false
 
 # Device props
 TARGET_SUPPORTS_BLUR := true
